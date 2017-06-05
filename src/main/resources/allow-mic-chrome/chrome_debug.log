@@ -1,0 +1,11 @@
+[23580:7924:0612/181628.787:WARNING:extension_service.cc(472)] Loading extension specified by --load-component-extension as a regular extension. Extensions specified by --load-component-extension will not be loaded starting in M58. Use --load-extension or --disable-extensions-except.
+[23580:7924:0612/181631.748:ERROR:CONSOLE(146)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://my.videxio.com') does not match the recipient window's origin ('https://www.google.com').", source: chrome-search://most-visited/single.js (146)
+[23580:7924:0612/181631.964:INFO:CONSOLE(6)] "SW registered", source: https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8 (6)
+[23580:25000:0612/181636.172:WARNING:extension_protocols.cc(464)] Failed to GetPathForExtension: gabplmohdjnflggelhlkofealkhnlngo
+[23580:25000:0612/181636.172:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://gabplmohdjnflggelhlkofealkhnlngo/icon.png
+[23580:7924:0612/181640.481:INFO:CONSOLE(1)] "URL.createObjectURL(stream) is deprecated! Use elem.srcObject = stream instead!", source: https://my.videxio.com/static/mypages.1.0.0+e86121b-release_mypages.en_US.js (1)
+[23580:7924:0612/181641.199:INFO:CONSOLE(1)] "URL.createObjectURL(stream) is deprecated! Use elem.srcObject = stream instead!", source: https://my.videxio.com/static/mypages.1.0.0+e86121b-release_mypages.en_US.js (1)
+[23580:7924:0612/181641.201:INFO:CONSOLE(1)] "The rtcpMuxPolicy option is being considered for removal and may be removed no earlier than M60, around August 2017. If you depend on it, please see https://www.chromestatus.com/features/5654810086866944 for more details.", source: https://my.videxio.com/static/mypages.1.0.0+e86121b-release_mypages.en_US.js (1)
+[23580:7924:0612/181653.022:INFO:CONSOLE(1)] "URL.createObjectURL(stream) is deprecated! Use elem.srcObject = stream instead!", source: https://my.videxio.com/static/mypages.1.0.0+e86121b-release_mypages.en_US.js (1)
+[23580:7924:0612/181653.024:INFO:CONSOLE(1)] "URL.createObjectURL(stream) is deprecated! Use elem.srcObject = stream instead!", source: https://my.videxio.com/static/mypages.1.0.0+e86121b-release_mypages.en_US.js (1)
+[23580:7924:0612/181656.041:INFO:user_input_monitor_win.cc(157)] RegisterRawInputDevices() failed for RIDEV_REMOVE: Параметр задан неверно. (0x57)

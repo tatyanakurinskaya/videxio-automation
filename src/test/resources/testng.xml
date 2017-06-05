@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InitialSuite">
+	<listeners>
+		<listener class-name="com.altoros.videxio.base.BaseTestListener"></listener>
+	</listeners>
+<!-- <test name="Tests without extension">
+ 		<parameter name="browser" value="chrome"/>
+ 		<parameter name="extension" value="noextension"/>
+ 		<groups>
+ 			<run>
+ 				<exclude name="broken"></exclude>
+ 				<exclude name="extension"></exclude>	
+ 			</run>
+ 		</groups>
+    	<classes>
+    		<class name="com.altoros.videxio.RoomPageTest">
+    		<methods>
+    			<exclude name="testSharingPresentation" />
+    		</methods>
+      		</class>
+    	</classes>
+	</test> -->
+	<test name="Tests With extension">
+ 		<parameter name="browser" value="chrome"/>
+ 		<groups>
+ 			<run>
+ 				<exclude name="broken"></exclude>
+ 				<exclude name="noextension"></exclude>
+ 			</run>
+ 		</groups>
+    	<classes>
+    		<class name="com.altoros.videxio.LoginPageTest">
+    		<methods></methods>
+      		</class>
+      		<class name="com.altoros.videxio.RoomPageTest">
+      		<methods></methods>
+      		</class>
+    	</classes>
+	</test>
+</suite> <!-- LoginSuite -->
